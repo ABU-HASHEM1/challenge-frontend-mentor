@@ -2,7 +2,7 @@
 :root{
     --cream-color: hsl(30, 38%, 92%);
     --green-500:hsl(158, 36%, 37%);
-    --green-700: hsl(158, 42%, 18%)
+    --green-700: hsl(158, 42%, 18%);
     --black-color: hsl(212, 21%, 14%);
     --Grey-color: hsl(228, 12%, 48%);
     --Cream-color: hsl(30, 38%, 92%);
@@ -51,7 +51,7 @@ img{
     font-size: 32px;
     margin: 20px 0;
     line-height: 1;
-    color: var(hsl(212, 21%, 14%));
+    color: var(--black-color);
 }
 #product .product-content p{
     font-size: 14px;
@@ -83,6 +83,9 @@ img{
     border-radius: 8px;
     font-weight: 700;
     cursor: pointer;
+}
+.cart:hover{
+    background-color: var(--green-700);
 }
 .cart::before{
     content: "";
